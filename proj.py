@@ -2,7 +2,7 @@ def calculateRect(length, width):
     if length > 0 and width > 0:
             return length*width
     else:
-          return("кощунство")
+          return("Ошибка")
 print('Площадь:', calculateRect(5, 10))
 def calculateCircle(radius):
     if radius>0:
